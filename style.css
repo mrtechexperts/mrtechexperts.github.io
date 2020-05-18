@@ -52,6 +52,8 @@ html{
 .tbox{
 	padding: 20px;
 	padding-top: 10px;
+	position: fixed;
+	overflow: hidden;
 }
 #b_box{
 	float: right;
