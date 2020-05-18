@@ -52,8 +52,7 @@ html{
 .tbox{
 	padding: 20px;
 	padding-top: 10px;
-	position: fixed;
-	background-color: white;
+
 }
 #b_box{
 	float: right;
