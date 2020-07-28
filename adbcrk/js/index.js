@@ -1,0 +1,1 @@
+alert("Welcome to my Adobe Crack Collection.")
