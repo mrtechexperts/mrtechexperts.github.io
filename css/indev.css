@@ -1,0 +1,27 @@
+* {
+    font-family: Jost, sans-serif;
+}
+
+#navh {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#navlink {
+    text-align: center;
+    font-size: 22px;
+    color: #0098db;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+#navlink:hover {
+    border: 2px solid #0098db;
+    border-radius: 20px;
+    transition: 0.3s ease-in;
+}
