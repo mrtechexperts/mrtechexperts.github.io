@@ -1,5 +1,6 @@
 * {
     font-family: Jost, sans-serif;
+    text-decoration: none;
 }
 
 #navh {
@@ -26,7 +27,37 @@
     transition: 0.3s ease-in;
 }
 
+#navlink_ch {
+    text-align: center;
+    font-size: 22px;
+    background: linear-gradient(90deg, rgba(0, 26, 107, 1) 0%, rgba(0, 128, 192, 1) 82%, rgba(0, 152, 219, 1) 100%);
+    color: #fff;
+    border: 2px solid linear-gradient(90deg, rgba(0, 26, 107, 1) 0%, rgba(0, 128, 192, 1) 82%, rgba(0, 152, 219, 1) 100%);
+    border-radius: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+#navlink_ch:hover {
+    /* border: 2px solid linear-gradient(90deg, rgba(0, 26, 107, 1) 0%, rgba(0, 128, 192, 1) 82%, rgba(0, 152, 219, 1) 100%); */
+    border-radius: 25px;
+    opacity: 90%;
+    /* background: linear-gradient(90deg, rgba(0, 26, 107, 1) 0%, rgba(0, 128, 192, 1) 82%, rgba(0, 152, 219, 1) 100%); */
+    transition: 0.3s ease-in;
+}
+
 #head1 {
     text-align: center;
-    padding-top: 20px;
+    font-size: 36px;
+    padding: 20px 40px;
+    text-decoration: underline #0098db;
+}
+
+#p1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0px 60px;
 }
