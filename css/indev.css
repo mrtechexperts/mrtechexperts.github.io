@@ -59,5 +59,91 @@
 #p1 {
     font-size: 25px;
     text-align: center;
-    padding: 0px 60px;
+    padding: 0px 5%;
 }
+
+#video {}
+
+
+/* .video {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    width: 100%; */
+
+#head2 {
+    text-align: left;
+    font-size: 36px;
+    text-decoration: underline #0098db;
+}
+
+#p2 {
+    font-size: 25px;
+    text-align: left;
+}
+
+.htxt {
+    padding: 5% 40px 5% 40px;
+}
+
+.himg {
+    width: 100%;
+}
+
+.hmain {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    background-color: lightgrey;
+    justify-items: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+#diskmain {
+    grid-template-columns: 1fr 1.5fr;
+}
+
+#diskimg_div {
+    grid-row: 1/2;
+}
+
+#head3 {
+    text-align: right;
+    font-size: 36px;
+    text-decoration: underline #0098db;
+}
+
+#p3 {
+    font-size: 25px;
+    text-align: right;
+}
+
+
+/* #tuttxt {
+    padding: 5% 40px 5% 40px;
+}
+
+#tut-image {
+    width: 100%;
+}
+
+#tutmain {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    background-color: lightgrey;
+    justify-items: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+#tuttxt {
+    padding: 5% 40px 5% 40px;
+} */
