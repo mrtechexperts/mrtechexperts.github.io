@@ -5,6 +5,15 @@
     #navlink,
     #navlink_ch {
         border: 0;
+        margin-top: 10px;
+        ;
+    }
+    #navlink_ch {
+        border: 0;
+        margin-top: 10px;
+        color: rgb(255, 0, 0);
+        background: #fff;
+        ;
     }
     #navlink:hover {
         border: 0;

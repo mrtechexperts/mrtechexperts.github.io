@@ -30,9 +30,9 @@
 #navlink_ch {
     text-align: center;
     font-size: 22px;
-    background: linear-gradient(90deg, rgba(0, 26, 107, 1) 0%, rgba(0, 128, 192, 1) 82%, rgba(0, 152, 219, 1) 100%);
+    background: linear-gradient(90deg, rgba(156, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
     color: #fff;
-    border: 2px solid linear-gradient(90deg, rgba(0, 26, 107, 1) 0%, rgba(0, 128, 192, 1) 82%, rgba(0, 152, 219, 1) 100%);
+    border: 2px solid linear-gradient(90deg, rgba(156, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
     border-radius: 25px;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -44,7 +44,7 @@
 #navlink_ch:hover {
     /* border: 2px solid linear-gradient(90deg, rgba(0, 26, 107, 1) 0%, rgba(0, 128, 192, 1) 82%, rgba(0, 152, 219, 1) 100%); */
     border-radius: 25px;
-    opacity: 90%;
+    opacity: 80%;
     /* background: linear-gradient(90deg, rgba(0, 26, 107, 1) 0%, rgba(0, 128, 192, 1) 82%, rgba(0, 152, 219, 1) 100%); */
     transition: 0.3s ease-in;
 }
