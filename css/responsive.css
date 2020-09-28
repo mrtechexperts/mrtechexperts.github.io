@@ -39,6 +39,12 @@
     .himg_div {
         grid-row: 1/2;
     }
+    .himg {
+        border-radius: 20px 20px 0px 0px;
+    }
+    #disk-image {
+        border-radius: 20px 20px 0px 0px;
+    }
     #diskmain {
         display: grid;
         grid-template-columns: 1fr;

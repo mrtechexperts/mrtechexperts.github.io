@@ -22,7 +22,7 @@
 }
 
 #navlink:hover {
-    border: 2px solid #0098db;
+    border: 2px solid #0071bc;
     border-radius: 20px;
     transition: 0.3s ease-in;
 }
@@ -69,7 +69,7 @@
 #head2 {
     text-align: left;
     font-size: 36px;
-    text-decoration: underline #0098db;
+    text-decoration: underline #2a98c7;
 }
 
 #p2 {
@@ -83,15 +83,24 @@
 
 .himg {
     width: 100%;
+    border-left: 0;
+    border-radius: 0px 20px 20px 0px;
 }
 
 .hmain {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
-    background-color: lightgrey;
+    background-color: rgb(219, 218, 218);
     justify-items: center;
     align-items: center;
-    margin: 20px 0px;
+    margin: 20px 10px;
+    border: 5px solid none;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px gray;
+}
+
+#disk-image {
+    border-radius: 20px 0px 0px 20px;
 }
 
 #diskmain {
@@ -111,4 +120,8 @@
 #p3 {
     font-size: 25px;
     text-align: right;
+}
+
+#ricn {
+    color: #0071bc;
 }
