@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <!--css-->
+    <link rel="stylesheet" href="css/calc.css">
+    <!--title and logo-->
+    <title>Practise</title>
+</head>
+
+<body>
+
+    <div class="body">
+        <div class="main">
+            <h1>Calculator</h1>
+            <div class="input">
+                <div class="iCon">
+                    1st Num:
+                    <br>
+                    <input class="input" id="1st" type="text" value="" placeholder="Give your Number">
+                </div>
+                <div class="iCon">
+                    Operator:
+                    <br>
+                    <select id="op" class="input">
+                        <option value="+"> + </option>
+                        <option value="-"> - </option>
+                        <option value="x"> x </option>
+                        <option value="/"> / </option>
+                        <option value="%"> % </option>
+                        <option value="^"> ^ </option>
+                    </select>
+                    <!-- <input id="op" type="" value=""> -->
+                </div>
+                <div class="iCon">
+                    2nd Num:
+                    <br>
+                    <input class="input" id="2nd" type="text" value="" placeholder="Give your Number">
+                </div>
+            </div>
+            <button onclick="calcul()">Give</button>
+            <br>
+            <button onclick="location.reload()">ReLoad</button>
+            <h1 id="ans"></h1>
+            <br>
+            <h1 id="ex"></h1>
+
+        </div>
+    </div>
+
+
+
+    <!--js-->
+    <script src="js/calc.js "></script>
+
+</body>
+
+</html>

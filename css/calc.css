@@ -1,0 +1,50 @@
+body {
+    background-image: url(https://cdn.wallpapersafari.com/10/23/C7W9Qv.jpg);
+    font-family: Jost;
+    font-size: 22px;
+}
+
+.button {
+    margin: 50px;
+    font-size: 40px;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: #345eeb;
+    color: #fff;
+}
+
+.body {
+    position: absolute;
+    width: 50%;
+    overflow: hidden;
+    margin: 10% 25%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    ;
+}
+
+.main {
+    margin: 50px 25%;
+}
+
+.label {
+    text-align: left;
+}
+
+.input {
+    padding: 5px 50px;
+    border-radius: 20px;
+    ;
+    border: 0;
+}
+
+.input input,
+select {
+    box-shadow: 1px 0px 20px #000;
+}
+
+.iCon {
+    padding: 10px 0px;
+    text-align: left;
+}
