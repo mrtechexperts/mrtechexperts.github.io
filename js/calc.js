@@ -1,3 +1,8 @@
+document.getElementById("btn_cl").addEventListener("click", calcul);
+document.getElementById("btn_rl").addEventListener("click", function() {
+    location.reload();
+});
+
 function calcul() {
     document.getElementById("ex").innerHTML = "";
     var fst = document.getElementById("1st").value;
@@ -21,6 +26,10 @@ function calcul() {
     } else if (op == "^") {
         result = fst ** scnd;
     } else {
+        alert("invalid");
+        location.reload();
+    }
+    if (result === NaN) {
         alert("invalid");
         location.reload();
     }

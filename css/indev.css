@@ -3,6 +3,11 @@
     text-decoration: none;
 }
 
+.index {
+    background-image: url(img/himg-1.png);
+    background-size: cover;
+}
+
 #navh {
     font-size: 25px;
     font-weight: 500;
